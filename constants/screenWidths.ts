@@ -1,4 +1,4 @@
 export const SMALL_DEVICE = 402;
-export const isSmallDevice = (screenWidth: number): boolean => {
-    return screenWidth < SMALL_DEVICE ? true : false;
-}
+
+// Ekran genişliği 402 pikselden küçükse küçük cihaz olarak kabul edilir
+export const isSmallDevice = (screenWidth: number): boolean => screenWidth < SMALL_DEVICE;
